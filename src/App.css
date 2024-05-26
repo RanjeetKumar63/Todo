@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+body{
+  
 }
 
 .App-logo {
@@ -35,4 +42,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+buttm:hover{
+  border: 1px solid blue;
+  background-color: #61dafb;
 }
